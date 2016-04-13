@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+	
+	<LinearLayout android:id="@+id/nameLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="5dp"
+	    android:orientation="horizontal" >
+	       <TextView android:id="@+id/tvName" 
+	        android:layout_width="40dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tv_name"
+	        />
+	       <EditText android:id="@+id/etvName" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:imeOptions="actionDone"
+	        android:inputType="text"
+	        />
+	</LinearLayout>
+	
+
+	<LinearLayout android:id="@+id/numerLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="5dp"
+	    android:orientation="horizontal" >
+	       <TextView android:id="@+id/tvNumber" 
+	        android:layout_width="40dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tv_number"
+	        />
+	       <EditText android:id="@+id/etvNumber" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:imeOptions="actionDone"
+	        android:inputType="phone"
+	        />
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/btnLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:orientation="horizontal" >
+	       <Button android:id="@+id/btnAdd" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/btn_add"
+	        />
+
+	       <Button android:id="@+id/btnDelete" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/btn_delete"
+	        />
+	       
+		    <Button android:id="@+id/btnQuery" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/btn_query"
+	        />             
+	</LinearLayout>
+	
+	
+	<ListView android:id="@+id/lvPerson" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content">
+	    
+	</ListView>
+
+</LinearLayout>

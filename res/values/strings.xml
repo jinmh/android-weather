@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">androidDemo</string>
+    <string name="btn_next">进入下一个活动</string>
+    <string name="btn_data">传递数据到下一个活动</string>
+    <string name="btn_lifecycle">演示活动生命周期</string>
+    <string name="btn_back">返回上一个活动</string>
+    <string name="btn_back_data">返回数据到上一个活动</string>
+    <string name="btn_web">浏览网页</string>
+    <string name="btn_map">打开地图</string>
+    <string name="btn_tel">拨打电话</string>
+    <string name="add_item">添加</string>
+    <string name="remove_item">删除</string>
+    <string name="btn_normal">启动普通Activity</string>
+    <string name="btn_dialog">启动弹出Activity</string>
+    
+    
+    <string name="tv_id">id</string>
+    <string name="tv_name">姓名</string>
+    <string name="tv_number">号码</string>
+    <string name="btn_add">添加</string>
+    <string name="btn_query">查询</string>
+    <string name="btn_delete">删除</string>        
+    
+    
+</resources>
